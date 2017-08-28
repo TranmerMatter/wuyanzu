@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1,h2,h3,h4,h5,h6,body, div, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, blockquote, table, th, td, embed, object {
+    padding: 0;
+    margin: 0 auto;
+}
+li{
+    font-size: 12px;
+}
+input{
+    outline:none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    fieldset, img, abbr {
+    border: 0;
+}
+button{
+    outline:none ;
+    border: none ;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+caption, th {
+    text-align: left;
+}
+
+a, ins {
+    text-decoration: none;
+    color: black;
+    font-weight:normal;
+}
+.clear{clear:both;}
+a,p,li,ul,span,strong,b,h1,h2,h3,h4,h5,h6,div{
+    font-family: 微软雅黑;
+}
+.sprite1{
+    background: url("../images/sprite1.png") no-repeat left top;
+}
+.sprite_nav{
+    background: url("../images/nav.png") no-repeat left top;
+}
+.nav_pic_box{
+    width:47px;
+    height:47px;
+    float: left;
+    margin-left: 7.5px;
+}
+.join{
+    float: left;
+    margin-top: 7.5px;
+    margin-right: 3px;
+    width:15px;height:15px;background-position:-9px -9px;
+}
+.shop{
+    float: left;
+    margin-top: 7.5px;
+    margin-right: 3px;
+    width:15px;height:15px;background-position:-8px -28px;
+}
+.food{
+    background-position:-1px 0;
+}
+.night_shop{
+    background-position:-68px 0;
+}
+.shopping{
+    background-position:-134px 0;
+}
+.culture{
+    background-position:-200px 0;
+}
+.relax{
+    background-position:-266px 0;
+}
+.zone{
+    background-position:-2px -142px;
+}
+.know{
+    background-position:-69px -142px;
+}
+.free{
+    background-position:-135px -142px;
+}
+.forum{
+    background-position:-201px -142px;
+}
+.club{
+    background-position:-267px -142px;
+}
+.logo{
+    width:223px;height:62px;background-position:0 -283px;
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.update{
+    width:50px;height:13px;background-position:-9px -52px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.up{
+    width:7px;height:5px;background-position:-39px -21px;
+    float: left;
+    cursor: pointer;
+}
+.down{
+    width:7px;height:5px;background-position:-39px -30px;
+    float: left;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.down_gray{
+    width:7px;height:5px;background-position:-39px -39px;
+    float: left;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.radius_block{
+    box-sizing: border-box;
+    padding: 15px;
+    float: left;
+    border-radius:9px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+.main_left .radius_block{
+    margin-right: 10px;
+}
+.more{
+    outline:none;
+    border: none;
+    cursor: pointer;
+    width:39px;
+    height:15px;
+    background: url("../images/more.png") no-repeat left top;
+}
+.title{
+    height:35px;
+    line-height:35px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.title strong{
+    color: #dc0000;
+}
+.title .more{
+    float: right;
+    margin-top: 7.5px;
+}
+.shop_car{
+    width:21px;height:12px;background-position:-8px -115px;
+    float: left;
+    margin-left: 11px;
+}
+.note_book{
+    width:21px;height:12px;background-position:-8px -140px;
+    float: left;
+    margin-left: 11px;
+}
+
+
+.recom_item{
+    height:93px;
+    width:210px;
+    border-bottom: 1px dashed #cbcbca;
+    position: relative;
+}
+.recom_item img{
+    width:90px;
+    height:67px;
+    padding: 2px;
+    border: 1px solid #dadada;
+    margin: 10px;
+    margin-left: 0;
+    float: left;
+}
+.recom_item ul{
+    padding-top: 10px;
+    float: left;
+}
+.recom_item ul li:hover{
+    text-decoration: underline;
+}
+.recom_item ul li{
+    cursor: pointer;
+    height:16px;
+    line-height:16px;
+    color: #999999;
+    font-size: 11px;
+}
+.recom_item ul li span{
+    color: #666666;
+}
+.recom_item ul .item_name{
+    font-size: 12px;
+    color: #b80000;
+    height:28px;
+    line-height:28px;
+}
+.recom_item .discount{
+    width:42px;
+    height:43px;
+    position: absolute;
+    left: 69px;
+    top:46px;
+    background: url("../images/discount.png") no-repeat left top;
+}
+
+.blog_list .blog{
+    height:27px;
+    line-height:27px;
+    border-bottom: 1px dashed #cbcbca;
+    font-size: 12px;
+    color: #c3c3c3;
+}
+.blog_list .blog_title_line{
+    height:27px;
+    line-height:27px;
+    border-bottom: 1px dashed #cbcbca;
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.blog_list .blog_title_line span{
+    float: left;
+}
+.blog_list .blog .list_sty{
+    float: left;
+    background:url("../images/coupons_list_style.png");
+    width:3px;
+    height:3px;
+    margin: 12px 7px;
+}
+.blog_list .blog:nth-last-child(1){
+    border-bottom: none;
+}
+.blog_list .blog .style{
+    color: #c75d61;
+}
+.blog_list .blog .arti_name{
+    color: black;
+}
+.blog_list .blog .style:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.blog_list .blog .arti_name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sub_nav{
+    position: relative;
+    height:24px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dadada;
+}
+.sub_nav .nav{
+    float: left;
+    width:100px;
+    height:22px;
+    line-height: 22px;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #dadada;
+    text-align: center;
+    cursor: pointer;
+    background: url("../images/title_nav_bg.png") repeat-x;
+}
+
+.sub_nav .nav div{
+    margin-left: -8px;
+    margin-top: 8px;
+}
+.sub_nav .nav span{
+    float: left;
+    width:55px;
+}
+.sub_nav li.active{
+    border-bottom: 1px solid white;
+    background: white;
+}
+.sub_nav .active .down_gray{
+    background-position:-39px -30px;
+}
+.sub_nav .page{
+    position: absolute;
+    top:22px;
+    display: none;
+}
+.sub_nav .page.active{
+    display: block;
+}
+.state_yes{
+    width:10px;height:28px;background-position:-9px -165px;
+    float: right;
+    margin-right: 27px;
+}
+.state_flag{
+    width:10px;height:28px;background-position:-29px -164px;
+    float: right;
+    margin-right: 27px;
+}
+.search_go{
+    width:25px;height:25px;background-position:-49px -167px;
+    float: right;
+}
+.phone{
+    width:17px;height:19px;background-position:-9px -204px;
+    /*float: left;*/
+}
+.email{
+    width:17px;height:18px;background-position:-9px -236px;
+    /*float: left;*/
+}
